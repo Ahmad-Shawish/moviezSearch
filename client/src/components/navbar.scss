@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #25213fa9;
+  border-bottom: 5px solid black;
+  height: 70px;
+
+  p {
+    font-size: 26px;
+    color: #49adc3;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,56 @@
+.home {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .buttons {
+      background: transparent;
+      border: none;
+
+      span {
+        margin-right: 7px;
+        font-size: 15px;
+        color: white;
+      }
+
+      button {
+        width: 75px;
+        height: 25px;
+        background-color: #a49c9c4e;
+        border: none;
+        cursor: pointer;
+        color: white;
+
+        &:nth-child(2n) {
+          border-radius: 5px 0 0 5px;
+        }
+        &:nth-child(2n + 1) {
+          border-radius: 0 5px 5px 0;
+        }
+
+        &:hover {
+          background-color: #b0b6bd;
+        }
+
+        &:focus {
+          border-color: black;
+          background-color: rgba(245, 222, 179, 0.032);
+          color: black;
+        }
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}

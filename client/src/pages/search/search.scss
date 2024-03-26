@@ -1,0 +1,71 @@
+.search {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background-color: yellow;
+
+    form {
+      width: 40%;
+      //   background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      position: relative;
+
+      input {
+        border: none;
+        outline: none;
+        background-color: #4d4e5435;
+        color: white;
+        width: 100%;
+        padding: 15px;
+        border-radius: 30px;
+      }
+
+      //   button {
+      //     border: none;
+      //     position: absolute;
+      //     cursor: pointer;
+      //     right: 20px;
+      //     border-radius: 35px;
+      //     font-size: 12px;
+      //     padding: 2px 5px;
+      //     background-color: #9db2c163;
+      //   }
+
+      img {
+        position: absolute;
+        right: 20px;
+        scale: 0.5;
+        // stroke: #8185919a;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      height: 100%;
+    }
+
+    .custom .MuiPaginationItem-textPrimary {
+      color: white;
+    }
+  }
+}

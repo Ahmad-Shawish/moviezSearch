@@ -1,0 +1,33 @@
+.popular {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      height: 100%;
+    }
+
+    .custom .MuiPaginationItem-textPrimary {
+      color: white;
+    }
+  }
+}
